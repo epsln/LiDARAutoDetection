@@ -1,0 +1,17 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'build//main.blg'
+[54] biber:303> INFO - === Mon Nov  9, 2020, 12:34:00
+[73] Biber.pm:360> INFO - Reading 'build//main.bcf'
+[162] Biber.pm:836> INFO - Found 19 citekeys in bib section 0
+[178] Biber.pm:3671> INFO - Processing section 0
+[193] Biber.pm:3841> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[205] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[230] bibtex.pm:1281> INFO - Found BibTeX data source 'biblio.bib'
+[285] Utils.pm:164> WARN - BibTeX subsystem: /tmp/ytGy_4ld5z/biblio.bib_28976.utf8, line 9, warning: 252 characters of junk seen at toplevel
+[313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[313] Biber.pm:3500> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[313] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[328] bbl.pm:608> INFO - Writing 'build//main.bbl' with encoding 'UTF-8'
+[333] bbl.pm:712> INFO - Output to build//main.bbl
+[333] Biber.pm:110> INFO - WARNINGS: 1

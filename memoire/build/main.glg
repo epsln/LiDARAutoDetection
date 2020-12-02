@@ -1,0 +1,22 @@
+
+
+*** Unable to execute: '"makeindex"  -s "main.ist" -t "build/main.glg" -o "build/main.gls" "build/main.glo"' ***
+
+Failed with error code 1.
+
+Status report:
+
+Index style file main.ist not found.
+Usage: makeindex [-ilqrcgLT] [-s sty] [-o ind] [-t log] [-p num] [idx0 idx1 ...]
+
+makeindex didn't create a transcript.
+Check that makeindex has been installed and
+is on your system's PATH.
+Your PATH environment variable is set to: 
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/small/Documents/processing-3.5.1/processing-java
+Try manually running:
+"makeindex"  -s "main.ist" -t "build/main.glg" -o "build/main.gls" "build/main.glo"
+
+
+makeglossaries diagnostic messages:
+Style file not found. (Have you used \noist by mistake?)

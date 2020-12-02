@@ -1,0 +1,1045 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.11.23)  6 MAY 2020 16:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def))
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2016/07/11 v4.10 LaTeX color/graphics driver for XeTeX (L3/RRM/
+JK)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks16
+\AP@partial=\box26
+\AP@footins=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen104
+\lightrulewidth=\dimen105
+\cmidrulewidth=\dimen106
+\belowrulesep=\dimen107
+\belowbottomsep=\dimen108
+\aboverulesep=\dimen109
+\abovetopsep=\dimen110
+\cmidrulesep=\dimen111
+\cmidrulekern=\dimen112
+\defaultaddspace=\dimen113
+\@cmidla=\count88
+\@cmidlb=\count89
+\@aboverulesep=\dimen114
+\@belowrulesep=\dimen115
+\@thisruleclass=\count90
+\@lastruleclass=\count91
+\@thisrulewidth=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen119
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks20
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks21
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks22
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count104
+)
+\c@subfigure=\count105
+\c@subtable=\count106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count108
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count109
+\decimalpart=\count110
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count111
+\c@listtotal=\count112
+\c@listcount=\count113
+\c@liststart=\count114
+\c@liststop=\count115
+\c@citecount=\count116
+\c@citetotal=\count117
+\c@multicitecount=\count118
+\c@multicitetotal=\count119
+\c@instcount=\count120
+\c@maxnames=\count121
+\c@minnames=\count122
+\c@maxitems=\count123
+\c@minitems=\count124
+\c@citecounter=\count125
+\c@savedcitecounter=\count126
+\c@uniquelist=\count127
+\c@uniquename=\count128
+\c@refsection=\count129
+\c@refsegment=\count130
+\c@maxextratitle=\count131
+\c@maxextratitleyear=\count132
+\c@maxextrayear=\count133
+\c@maxextraalpha=\count134
+\c@abbrvpenalty=\count135
+\c@highnamepenalty=\count136
+\c@lownamepenalty=\count137
+\c@maxparens=\count138
+\c@parenlevel=\count139
+\blx@tempcnta=\count140
+\blx@tempcntb=\count141
+\blx@tempcntc=\count142
+\blx@maxsection=\count143
+\blx@maxsegment@0=\count144
+\blx@notetype=\count145
+\blx@parenlevel@text=\count146
+\blx@parenlevel@foot=\count147
+\blx@sectionciteorder@0=\count148
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count149
+\c@maxcomprange=\count150
+\c@mincompwidth=\count151
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count152
+\c@savedafterword=\count153
+\c@annotator=\count154
+\c@savedannotator=\count155
+\c@author=\count156
+\c@savedauthor=\count157
+\c@bookauthor=\count158
+\c@savedbookauthor=\count159
+\c@commentator=\count160
+\c@savedcommentator=\count161
+\c@editor=\count162
+\c@savededitor=\count163
+\c@editora=\count164
+\c@savededitora=\count165
+\c@editorb=\count166
+\c@savededitorb=\count167
+\c@editorc=\count168
+\c@savededitorc=\count169
+\c@foreword=\count170
+\c@savedforeword=\count171
+\c@holder=\count172
+\c@savedholder=\count173
+\c@introduction=\count174
+\c@savedintroduction=\count175
+\c@namea=\count176
+\c@savednamea=\count177
+\c@nameb=\count178
+\c@savednameb=\count179
+\c@namec=\count180
+\c@savednamec=\count181
+\c@translator=\count182
+\c@savedtranslator=\count183
+\c@shortauthor=\count184
+\c@savedshortauthor=\count185
+\c@shorteditor=\count186
+\c@savedshorteditor=\count187
+\c@labelname=\count188
+\c@savedlabelname=\count189
+\c@institution=\count190
+\c@savedinstitution=\count191
+\c@lista=\count192
+\c@savedlista=\count193
+\c@listb=\count194
+\c@savedlistb=\count195
+\c@listc=\count196
+\c@savedlistc=\count197
+\c@listd=\count198
+\c@savedlistd=\count199
+\c@liste=\count266
+\c@savedliste=\count267
+\c@listf=\count268
+\c@savedlistf=\count269
+\c@location=\count270
+\c@savedlocation=\count271
+\c@organization=\count272
+\c@savedorganization=\count273
+\c@origlocation=\count274
+\c@savedoriglocation=\count275
+\c@origpublisher=\count276
+\c@savedorigpublisher=\count277
+\c@publisher=\count278
+\c@savedpublisher=\count279
+\c@language=\count280
+\c@savedlanguage=\count281
+\c@pageref=\count282
+\c@savedpageref=\count283
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count284
+\c@textcitetotal=\count285
+\c@textcitemaxnames=\count286
+\c@biburlnumpenalty=\count287
+\c@biburlucpenalty=\count288
+\c@biburllcpenalty=\count289
+\c@smartand=\count290
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count291
+\c@bbx:relatedtotal=\count292
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks24
+\float@box=\box30
+\@float@everytoks=\toks25
+\@floatcapt=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \AP@enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count296
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count297
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count298
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2016/06/24 v6.83q Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box32
+\c@Hy@AnnotLevel=\count302
+\HyField@AnnotCount=\count303
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+)
+\Hy@SectionHShift=\skip69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks26
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count309
+\@quotereset=\count310
+(build//main.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\AtBeginShipoutBox=\box33
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (build//main.bbl)
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
+Package hyperref Info: Link coloring OFF on input line 28.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count311
+)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
+
+(build//main.out) (build//main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 736.64185pt, 54.2025pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=489.10287pt
+* \textheight=736.64185pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+[1
+
+] (build/main.toc [1])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [2] (build/main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [3] (build/main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [4]
+(./sections/introduction.tex) [5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 44.
+
+(./sections/etten1.tex [6]) [7]
+Overfull \hbox (6.42818pt too wide) in paragraph at lines 48--48
+[]\T1/lmr/bx/n/17.28 Satellite Im-agery Mul-ti-scale Rapid De-tec-tion with Win
+-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 48.
+
+(./sections/etten2.tex [8] [9]) [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 52.
+
+(./sections/juAl.tex
+File: images/dilConvA.png Graphic file (type QTm)
+ <use  "images/dilConvA.png" >
+File: images/dilConvB.png Graphic file (type QTm)
+
+<use  "images/dilConvB.png" >
+File: images/dilConvC.png Graphic file (type QTm)
+ <use  "images/dilConvC.png" >
+File: images/dilModuleA.jpg Graphic file (type QTm)
+
+<use  "images/dilModuleA.jpg" >
+File: images/dilModuleB.jpg Graphic file (type QTm)
+ <use  "images/dilModuleB.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/juPassthrough.jpg Graphic file (type QTm)
+<use  "images/juPassthrough.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+File: images/juPassthroughModule.jpg Graphic file (type QTm)
+ <use  "images/juPassthroughModule.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/juFeatureFusion.jpg Graphic file (type QTm)
+<use  "images/juFeatureFusion.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+File: images/juArchi.jpg Graphic file (type QTm)
+ <use  "images/juArchi.jpg" > [13] [14] [15])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 56.
+
+(./sections/qianAl.tex
+File: images/ODRSIArchi.jpg Graphic file (type QTm)
+ <use  "images/ODRSIArchi.jpg" > [16
+
+]
+File: images/overlappingBox.jpg Graphic file (type QTm)
+
+<use  "images/overlappingBox.jpg" >
+File: images/nonoverlappingBox.jpg Graphic file (type QTm)
+ <use  "images/nonoverlappingBox.jpg" >
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 34--47
+[]$[]$ $[]$ 
+ []
+
+[17]
+Overfull \hbox (0.42198pt too wide) in paragraph at lines 68--68
+[]\T1/lmr/bx/n/14.4 Bounding Box Re-gres-sion based on Im-proved GIoU Loss (IGI
+oU) 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18] [19])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 60.
+
+(./sections/zhuangAl.tex
+File: images/darknetArchi.jpg Graphic file (type QTm)
+ <use  "images/darknetArchi.jpg" >
+File: images/msFusionDetectorArchi.jpg Graphic file (type QTm)
+
+<use  "images/msFusionDetectorArchi.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 29.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [20
+
+]
+File: images/msFeatureFusionModule.jpg Graphic file (type QTm)
+
+<use  "images/msFeatureFusionModule.jpg" > [21] [22]
+File: images/anchors.jpg Graphic file (type QTm)
+
+<use  "images/anchors.jpg" > [23] [24]
+Overfull \hbox (131.11693pt too wide) in paragraph at lines 134--140
+ [][] 
+ []
+
+) [25] (./sections/conclusion.tex) [26] (./sections/bochkovsky.tex
+File: images/archiYOLO.jpg Graphic file (type QTm)
+
+<use  "images/archiYOLO.jpg" >
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 20.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 20.
+
+Overfull \hbox (22.49434pt too wide) in paragraph at lines 20--21
+[]\T1/lmr/bx/n/12 Backbones\T1/lmr/m/n/12 : VGG[[]29[]], ResNet-50[[]9[]], Ef-f
+i-cient-Net[[]39[]], CSPRes-NeXt50[[]30[]], CSP-Dark-net53[[]40[]]. 
+ []
+
+[27]
+File: images/dataAugmA.jpg Graphic file (type QTm)
+ <use  "images/dataAugmA.jpg" >
+File: images/dataAugmB.jpg Graphic file (type QTm)
+ <use  "images/dataAugmB.jpg" >
+File: images/dataAugmC.jpg Graphic file (type QTm)
+
+<use  "images/dataAugmC.jpg" > [28] [29]
+File: images/mosaic.jpg Graphic file (type QTm)
+ <use  "images/mosaic.jpg" > [30]
+File: images/cmbn.jpg Graphic file (type QTm)
+
+<use  "images/cmbn.jpg" >
+File: images/sam.jpg Graphic file (type QTm)
+ <use  "images/sam.jpg" >
+File: images/samMod.jpg Graphic file (type QTm)
+ <use  "images/samMod.jpg" >
+[31]
+File: images/pan.jpg Graphic file (type QTm)
+ <use  "images/pan.jpg" >
+File: images/panMod.jpg Graphic file (type QTm)
+ <use  "images/panMod.jpg" > [32]
+Overfull \hbox (34.78995pt too wide) in paragraph at lines 215--216
+[]\T1/lmr/bx/n/12 IT\T1/lmr/m/n/12 : IoU thresh-old-ing - Us-ing mul-ti-ple an-
+chors for a sin-gle ground truth with $\OML/cmm/m/it/12 IoU\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 truth; anchor\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 >
+ []
+
+[33]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 230.
+
+[34]) [35] (./sections/annexes.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36] [37] [38
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 98.
+
+[39])
+Overfull \hbox (12.71042pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Kaiming He et al. ``Deep Resid-ual Learn-ing for Im-age Recog-
+ni-tion''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1512.03385
+ []
+
+
+Overfull \hbox (38.9005pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Joseph Red-mon and Ali Farhadi. ``YOLO9000: Bet-ter, Faster, S
+tronger''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1612.08242
+ []
+
+[40
+
+
+
+]
+Missing character: There is no ’ in font ec-lmr12!
+
+Overfull \hbox (26.8129pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Tsung-Yi Lin et al. ``Fea-ture Pyra-mid Net-works for Ob-ject 
+De-tec-tion''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1612.03144
+ []
+
+[41]
+Overfull \hbox (26.74841pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Shu Liu et al. ``Path Ag-gre-ga-tion Net-work for In-stance Se
+g-men-ta-tion''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1803.01534
+ []
+
+
+Overfull \hbox (32.55885pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Sanghyun Woo et al. ``CBAM: Con-vo-lu-tional Block At-ten-tion
+ Mod-ule''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1807.06521
+ []
+
+[42]
+Overfull \hbox (9.64493pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Pengguang Chen et al. ``Grid-Mask Data Aug-men-ta-tion''. In: 
+\T1/lmr/m/it/12 arXiv e-prints\T1/lmr/m/n/12 , arXiv:2001.04086
+ []
+
+
+Package biblatex Warning: Month out of range
+(biblatex)                at entry 'dropConnect' on input line 76.
+
+
+Overfull \hbox (7.94824pt too wide) in paragraph at lines 76--76
+\T1/lmr/m/n/12 con-vo-lu-tional net-works''. In: \T1/lmr/m/it/12 arXiv e-prints
+\T1/lmr/m/n/12 , arXiv:1810.12890 (Oct. 2018), arXiv:1810.12890.
+ []
+
+
+Overfull \hbox (14.52147pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Hongyi Zhang et al. ``mixup: Be-yond Em-pir-i-cal Risk Min-i-m
+iza-tion''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1710.09412
+ []
+
+
+Overfull \hbox (18.35571pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Jiahui Yu et al. ``Unit-Box: An Ad-vanced Ob-ject De-tec-tion 
+Net-work''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1608.01471
+ []
+
+[43]
+Overfull \hbox (15.6323pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Tsung-Yi Lin et al. ``Mi-crosoft COCO: Com-mon Ob-jects in Con
+-text''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1405.0312
+ []
+
+
+Overfull \hbox (18.19044pt too wide) in paragraph at lines 76--76
+[]\T1/lmr/m/n/12 Jie Hu, Li Shen, and Gang Sun. ``Squeeze-and-Excitation Net-wo
+rks''. In: \T1/lmr/m/it/12 CoRR \T1/lmr/m/n/12 abs/1709.01507
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+[44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+ (build/main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 78.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17976 strings out of 493068
+ 285776 string characters out of 6137719
+ 743231 words of memory out of 5000000
+ 21611 multiletter control sequences out of 15000+600000
+ 52561 words of font info for 63 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 44i,13n,52p,1234b,4524s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on build/main.pdf (45 pages).

@@ -1,0 +1,76 @@
+The aim of this short section is to present the various domains of studies seen in this work and explain concepts that are necessary for comprehension. This is by no means a complete overview of the concepts but merely a basic introduction into the basic objects studied in this document. 
+
+\section{LiDAR}
+\gls{lidar} is a method for accurately measuring distances and stands for "\textit{light detection and ranging}". \gls{lidar} is used to make high resolution depth maps, and has seen uses in geography, seismology, autonomous vehicles\cite{WehrLohr1999}...  \gls{lidar} is able to map out large regions of terrain and produces very high resolution data, while being relatively cheap. \gls{lidar} accurately captures the distance between the sensor and an object, similar in how a sonar works: \gls{lidar} works by emitting short laser pulses and measuring the time of flight between its emission and the time at which it hits an object.  
+
+In Archaeology, \gls{lidar} is used to create \gls{dem}, that are then integrated into a \gls{gis} for analysis. A \gls{gis} is a specialised type of software designed to capture and analyze geopgraphic data. By carefully choosing the wavelength used, \gls{lidar} is able to see through vegetation and show structure that would be otherwise hidden. This type of sensing data allows us to see \textit{microrelief}: very small variation in the terrain elevation. Buried objects are now visible, and possibly detectable.  
+
+\section{Archaeological Structures}\label{elemArchaeo}
+This works centers around 3 types of Archaeological Structures. As the dataset is based on the work of Verschoof\cite{wouter2019}, we will use the same classes of objects. Moreover, as the author of this document is not a trained Archaeologist, it would be foolish to try to identify new types of objects to detect. 
+
+We will describe those three type of objects:
+\begin{figure}[H]
+  \centering
+\includegraphics[width=\linewidth]{kilnsExample}
+	\caption[Charcoal Kilns]{Example of a series of Charcoal Kilns. Each kilns is about 5-10 meters in diameters. Veluwe Region, Netherlands.}
+  \label{fig:kilnsExample}
+\end{figure}
+
+Charcoal kilns are circular structures used for production of charcoal by heating wood at a specific temperature and then covering it with soil. Charcoal kilns are an ancient method of charcoal production and can be found all around Europe, mostly around forests. Charcoals kilns are around 5-10 meters in diameters, and are characterised by a faint dark circular outline on a \gls{lidar} survey\cite{hirschAl2020}. They are often found in groups, as can be seen in Figure~\ref{fig:kilnsExample}
+
+\begin{figure}[H]
+  \centering
+	\includegraphics[width=\textwidth]{cfieldExample}
+	\caption[Celtic Fields]{Example of a group of Celtic fields, easily recognized by the streaks, and standard size. Each cell is about $30 \times 30$ meters. Veluwe Regions, Netherlands.}
+  \label{fig:cfieldsExample}
+\end{figure}
+
+The second class are Celtic fields, which are traces of ancient agricultural field system. Those fields are found in North-West Europe, but are not necessarily related to the Celtic Culture. They are divided into rectangular cells of regular size, and were believed to be used by a single individual or family\cite{arnoldussen2018}. Figure~\ref{fig:cfieldsExample} shows an example of such fields. In our classification system, \textbf{one cell is considered a Celtic field object, not the entire field}. This allows for easier identification, since if one cell is most likely regularly rectangular, the entire field often is not.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{barrowExample}
+	\caption[Barrows]{Two examples of barrows: the "blobs" in the center of the image. Each barrow is about 10 meters in diameter. Veluwe Region, Netherlands.}
+  \label{fig:barrowExample}
+\end{figure}
+
+Finally, the last type of object we aim to detect and classify are barrows. Barrow are mounds of raised earth or stone, over a burial placed in the middle. Barrows are funerary monuments, and are fairly common in Europe. Most dates from around 2200 BC to 1100 BC. Barrows have standard size of about 10 meters in diameters, although more prestigious dignitaries were buried in bigger barrows\cite{bourgeois2013}. Figure~\ref{fig:barrowExample} shows 2 barrows. It should be noted that barrows are fairly common, and can easily be spotted all around North-Western Europe.
+
+\section{Deep Learning}\label{overfit}
+Deep Learning is a ensemble of techniques which are based on Artificial Neural Networks, with multiple layers stacked upon each other. Those layers will progressively extract higher level features from the input. 
+
+One of the most successful innovations of Deep Learning would be Convolutional Neural Networks, or \gls{cnn}, first introduced by Yann LeCun\cite{lecun98}. Convolution Neurons applies the convolution operation on its input. The convoluted matrix is learned through training.
+
+While the first application of \glspl{cnn} was in the 90's, they found a renewed interest during the mid 2010's, where the use of \glspl{gpu} allowed for a massive increase in computation speed which rendered the use of deeper and more powerful networks possible. One of the first of such networks was AlexNet\cite{alexNet} which was trained on a commercial \glspl{gpu} and outperformed competitors by more than 10 points of \gls{map}. Other quickly followed suit, with deeper and more performant nets being developed each year, like GoogleNet\cite{googleNet}, VGG\cite{vgg} and resNet\cite{resNet} which introduced the idea of feature fusion via residual units. Today, deep convolutional networks with residual units are a staple in computer vision, but are also used in audio analysis\cite{PiczakCNN}\cite{Adavanne_CRNN}\cite{KaoAlRCRNN}\cite{CakirCRNN}\cite{PhanAl_CNN} among various other fields with great success.
+
+The work here centers around the task of object detection. This task is actually two fold: given an input image, localise an object then give a classification of this object. A good object detector must be able to do both, but they are evaluated differently. 
+
+A Deep Learning model is trained on a dataset. Deep Learning requires very large amounts of data to correctly train as they are very prone to \gls{overfit}. In statistics, a model is said to \gls{overfit} when it "describes features that arises from noise or variance in the data, rather than the underlying distribution from which the data is drawn"\cite{Webb2010}. In other words, this means that the model has "memorised" the data, and will perform badly on data which it has never seen before. In Figure~\ref{fig:overfit}, we see a classification task where a curve has to be drawn to differentiate two class and the green line is overfitted to the data, while the black line is a more reasonable fit.
+
+Overfitting is an issue that affects all Deep Learning models, but a lot of effort has been done to address this, either by creating a more diverse and robust dataset with data augmentation, or by modifying the network itself via regularisation and normalisation. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{overfitting}
+	\caption[Example of overfitting on a classification task]{Example of overfitting on a classification task. The black line represents a good fit to the data, with an acceptable error rate or, misclassified data points. The green represents \gls{overfit}: while the error rate is lower than the black line, the fit is too complicated, and will badly generalize on unseen data. Doc. Wikipedia}
+  \label{fig:overfit}
+\end{figure}
+
+There are two main parts of training a model on a particular dataset. First the dataset is divided in two sub dataset. One is used for training, and the other for evaluation. For simplicity, we will use an example of classification of an input image. During training, the model will produce a inference based on the input data \textit{i.e.} a label. We will compare the inferred label to the ground truth using a particular metric, like Categorical Cross-Entropy or \gls{mse} and obtain a distance between the two labels. This distance is known as the loss. We will try to reduce the loss by optimising the \gls{weights} of the model using gradient descent, as shown on Figure~\ref{fig:gradDesc}. 
+
+Given a multi variable differentiable function $F(x)$ that is defined in the neighborhood of a point $a \in \mathbb{R}^n$, the gradient descent is defined as follows:
+\begin{equation}
+	a_{n+1} = a_n - \gamma \nabla F(a_n)
+\end{equation}
+
+With a small $\gamma \in \mathbb{R}^+$, we have $F(a_{n+1}) \leq F(a_n)$, meaning that $\gamma \nabla F(a)$ is subtracted from $a$, moving toward a minimum. The parameter $\gamma$ is called the learning rate. A large learning rate will mean that the descent might converge faster, but might "overshoot" and miss the minimum, while a small learning rate means a more precise convergence, but will dramatically increase the number of steps necessary. On Figure~\ref{fig:gradDesc}, the learning represent the length of each arrow during the descent. It should be noted that nowadays, gradient descent is rarely used with modern networks, as most uses other optimizers, such as ADAM\cite{AdamOpti} or ADAGRAD\cite{adagrad}, which are based on the gradient descent, but also uses adaptive trainings steps.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7\textwidth]{gradDescent}
+	\caption[Gradient Descent]{Gradient Descent on a loss function with one parameter. Since the loss function of neural network is not convex, there are possibly multiple minimum, which the gradient descent algorithm can get "stuck" into. As the dimensionality of the problem increase, the complexity of the dynamics of the gradient descent increase.}
+  \label{fig:gradDesc}
+\end{figure}
+
+Since the gradient gives the direction of steepest incline of a differentiable function $F(x)$, this means that the function $F(x)$ declines the fastest in the direction of negative gradient. In Deep Learning \gls{backprop} is used, an recursive and efficient process that is able to compute the gradient with respect to the \gls{weights} of the network.
+

@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Shortcomings\040of\040popular\040automatic\040detection\040systems}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Differences\040between\040Natural\040Image\040and\040Geophysical\040Survey\040Processing}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Scale}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Precise\040Labeling}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{The\040difficulty\040of\040inferring\040archaeological\040nature}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{General\040specifications\040for\040a\040survey-focussed\040architecture}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Scale\040Robustness}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Handling\040of\040Multiple\040Data\040types:\040Ensemble\040Methods}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Region\040Proposals}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 11
+\BOOKMARK [1][-]{section*.3}{References}{}% 12

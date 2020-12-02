@@ -1,0 +1,42 @@
+\documentclass[a4paper, 12pt, titlepage, oneside]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{import}
+\usepackage{subcaption}
+\usepackage[sorting=none]{biblatex}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+
+
+\graphicspath{{images/}}
+\addbibresource{biblio.bib}
+
+\author{Martin Olivier}
+\title{Archaeological Automatic Detection in LiDAR: Architecture Proposal Document}
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\newpage
+\section{Data Augmentation}
+\import{sections/}{dataAugm.tex}
+\newpage
+
+\section{Model Architecture}
+\import{sections/}{archi.tex}
+\newpage
+
+\section{Training and Evaluation}
+\import{sections/}{train.tex}
+\newpage
+
+
+\end{document}

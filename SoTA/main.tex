@@ -1,0 +1,78 @@
+\documentclass[a4paper, 12pt, titlepage, oneside, english]{article}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{subcaption}
+\usepackage[sorting=none]{biblatex}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+
+
+
+\graphicspath{{images/}}
+\addbibresource{biblio.bib}
+
+\author{Martin Olivier}
+\title{State of the Art: Automated object recognition frameworks in satellite imagery and geophysical surveys}
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\listoffigures
+\newpage
+
+\listoftables
+\newpage
+
+\section{Introduction}
+\import{sections/}{introduction.tex}
+\newpage
+
+\section{You Only Look Twice\cite{yolt}}\label{yolt}
+\import{sections/}{etten1.tex}
+\newpage
+
+\section{Satellite Imagery Multiscale Rapid Detection with Windowed Networks\cite{Etten2019}}
+\import{sections/}{etten2.tex}
+\newpage
+
+\section{A Simple and Efficient Network for Small Target Detection\cite{sen}}
+\import{sections/}{juAl.tex}
+\newpage
+
+\section{Object Detection in Remote Sensing Images Based on Improved Bounding Box Regression and Multi-Level Features Fusion\cite{qianAl}}\label{qianAl}
+\import{sections/}{qianAl.tex}
+\newpage
+
+\section{A Single Shot Framework with Multi-Scale Feature Fusion for Geospatial Object Detection\cite{zhuang2019}}\label{ssd}
+\import{sections/}{zhuangAl.tex}
+\newpage
+
+\section{Conclusion}
+\import{sections/}{conclusion.tex}
+\newpage
+
+\section{Annexes}
+\subsection{YOLOv4}
+\import{sections/}{bochkovsky.tex}
+\newpage
+\subsection{Tables}
+\import{sections/}{annexes.tex}
+\newpage
+
+\printbibliography[heading=bibintoc]
+
+\end{document}

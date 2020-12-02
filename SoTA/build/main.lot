@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1}{\ignorespaces YOLT Detection performance on all classes\relax }}{7}{table.caption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2}{\ignorespaces Precision comparison of YOLT versus traditional detection pipelines}}{9}{table.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3}{\ignorespaces Results of each detection algorithm on VEDAI \relax }}{14}{table.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4}{\ignorespaces Results of all tested algorithm on the DOTA dataset.\relax }}{14}{table.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5}{\ignorespaces Comparative results of FPS, BFLOPs and Model Size with all tested algorithms. BFLOPS refer to the number of billions of floating points operations needed to calculate the prediction.\relax }}{15}{table.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6}{\ignorespaces Comparison of the ODRSI against four existing detection framework on the NWPU VHR-10\relax }}{19}{table.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7}{\ignorespaces Comparison with the baseline method on the DIOR datasets\relax }}{19}{table.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8}{\ignorespaces Average running time of the tested methods\relax }}{25}{table.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9}{\ignorespaces Impact of Bag of Freebies and different activation on the CSPResNext-50 Classifier. Baseline is shown on the first row. Results which are better than the baseline are shown in bold\relax }}{33}{table.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10}{\ignorespaces Impact of Bag of Freebies and Mish on the CSPDarknet-53 Classifier. Baseline is shown on the first row. Results which are better than the baseline are shown in bold\relax }}{33}{table.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11}{\ignorespaces Ablation Studies of Bag-of-Freebies using CSPResNeXt50-PANet-SPP with $512 \times 512$ input. Baseline is shown on the first row. Results better than baseline are shown in bold.\relax }}{34}{table.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {12}{\ignorespaces Comparison study of different classifier pre trained weights for detector trainings.\relax }}{35}{table.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {13}{\ignorespaces Comparison study of different mini-batch size for detector training.\relax }}{35}{table.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {14}{\ignorespaces YOLT Network Architecture\relax }}{36}{table.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {15}{\ignorespaces Architecture of the Single Shot Detection model described in section \ref {ssd}\relax }}{37}{table.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {16}{\ignorespaces Average Precision values for each class of the RSD-GOD dataset of the different detection methods along with the Single Shot Framework model from section \ref {ssd} \relax }}{38}{table.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {17}{\ignorespaces Average Precision values for each class of the NWPU VHR-10 dataset for each tested method and the Single Shot Framework described in section \ref {ssd}\relax }}{39}{table.caption.38}

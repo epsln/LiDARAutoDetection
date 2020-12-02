@@ -1,0 +1,18 @@
+This documents presents a concise, but not comprehensive state-of-the-art on automated detection in satellite imagery, as of the 23\textsuperscript{rd} April 2020. A few recent articles could not be consulted online as of this date, and so are not analyzed in this document, namely: Remote Sensing Object Localization with Deep Heterogeneous Superpixel Features by Yang et al.\cite{Yang2019} and BMF-CNN: an object detection method based on multi-scale feature fusion in VHR remote sensing images by Dong et al. \cite{Dong2020}.
+
+The general direction of the research in this area is toward Deep Convolutional Neural Networks that uses some kind of feature fusion at different layer height of the network. This feature fusion is supposed to improve detection rates in High Resolution Imagery by using information from the lower layers learned features, which has a higher resolution combined with the information from the higher layer features, which possess more semantic information. Using those techniques, researchers are able to obtain much higher precision scores on datasets such as VEDAI\cite{vedai}, NWPU\cite{nwpu} or DOTA\cite{dota} than traditional detection frameworks such as YOLOv3\cite{yolov3} o FasterRCNN\cite{FasterRCNN}. In most of the cases, the network is also much faster and smaller, and is able to analyze larger swaths of terrain.
+
+The paper in this document are always presented in the same manner. First a presentation of the general architecture is given. Then the proposed novel modules are introduced, and finally results on the different datasets are given.
+
+\subsection{Issues in Automated Detection in Remote Sensing Imagery}%Add references
+%Rewrite this sentence
+Remote sensing, particularly with satellite imagery possess a number of specific problems that often renders existing detection pipelines inefficient be it in terms of Frame Per Seconds, or precision scores. 
+
+First, the objects of interest are often very small and densely clustered. This differ from the large objects often seen in ImageNet. In satellite imagery, the absolute resolution can be extremely large, but since those image also cover a very large area. Depending on the source, a pixel can have a physical size of $30$ cm for very high resolution image to 3-4 meters. Small objects, such as cars, \textbf{will only be ~15 pixels} at most with the highest resolution.
+
+Secondly, objects viewed from satellite can have any orientation. This means that \textbf{complete rotational invariance} is needed. 
+
+Lastly, \textbf{the input image size are often extremely large}. Downsampling, which is done by most algorithm to reduce the dimensionality to the feature maps to a reasonable degree\footnote{For example, YOLOv3 downsamples an input image up to 32 times} is not an option here. 
+
+%Rewrite this too...
+Those issues are similar to the one that can be seen in the field of remote sensing automated detection, in particular with the input image resolution being very high. There is a need for specifically designed algorithms, since traditional methods fail to capture all the objects. 

@@ -1,0 +1,117 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Issues in Automated Detection in Remote Sensing Imagery}{5}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}You Only Look Twice\cite {yolt}}{6}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Network Architecture}{6}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Scale Mitigation}{6}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Training}{6}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Data and Preprocessing}{6}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Training Hyperparameters}{7}{subsubsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Results}{7}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Satellite Imagery Multiscale Rapid Detection with Windowed Networks\cite {Etten2019}}{8}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Network Architecture and Training Method}{8}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}YOLO}{8}{subsubsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}YOLT}{8}{subsubsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3}SSD}{8}{subsubsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.4}Faster-RCNN}{8}{subsubsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.5}R-FCN}{9}{subsubsection.3.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Training and Testing Procedure}{9}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Data and Preprocessing}{9}{subsubsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Results}{9}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}A Simple and Efficient Network for Small Target Detection\cite {sen}}{11}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Proposed Modules}{11}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Dilated Modules}{11}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Passthrough module}{11}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}Feature Fusion}{12}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}General Architecture}{13}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Results}{14}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Object Detection in Remote Sensing Images Based on Improved Bounding Box Regression and Multi-Level Features Fusion\cite {qianAl}}{16}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Architecture}{16}{subsection.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}General Network Architecture}{16}{subsubsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.2}MLFF}{17}{subsubsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Generalized Intersection over Union}{17}{subsection.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Bounding Box Regression based on Improved GIoU Loss (IGIoU)}{18}{subsection.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Results}{18}{subsection.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}A Single Shot Framework with Multi-Scale Feature Fusion for Geospatial Object Detection\cite {zhuang2019}}{20}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Architecture}{20}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.1}Base Feature Extractor}{20}{subsubsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.2}Multi-scale feature fusion detector}{20}{subsubsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.3}Multi-scale feature fusion module}{21}{subsubsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.4}Anchors and predictions}{21}{subsubsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.5}Loss Function}{23}{subsubsection.6.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.6}Soft Non-Maximum Suppression}{24}{subsubsection.6.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Results}{24}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Conclusion}{26}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Annexes}{27}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}YOLOv4}{27}{subsection.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2}General Architecture of a Object Detector}{27}{subsection.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Bag of Freebies}{28}{subsection.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4}Bag Of Specials}{29}{subsection.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5}Additional Improvements}{30}{subsection.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.6}YOLOv4 Architecture}{32}{subsection.8.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.7}Results}{33}{subsection.8.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.7.1}Influence of features on Classifier training}{33}{subsubsection.8.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.7.2}Influence of features on the Detector training}{33}{subsubsection.8.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.8}Influence of different backbones and pre-trained weights on the detector}{34}{subsection.8.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.8.1}Influence of mini-batch size on detector training}{35}{subsubsection.8.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.9}Tables}{36}{subsection.8.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{40}{section*.39}

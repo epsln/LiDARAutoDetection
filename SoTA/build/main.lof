@@ -1,0 +1,31 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Dilated Convolution Example\relax }}{11}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Dilated Module details\relax }}{12}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Workings of the passtrough layer}}{12}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Passthrough module details from the Simple Detection Network for Small Object Detection}}{13}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Feature fusion between the dilated modules in the Simple Detection Network for Small Object Detection}}{13}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces General Architecture for the Simple and Efficient Network for Small Target Detection}}{13}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces General Architecture of the ODRSI}}{16}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Illustration showing the two cases of bounding box position: intersecting and non-overlapping. The rectangle enclosed by a green solid line denotes the ground truth $B_{GT}$; the predicted box $B_{PT}$ is denoted by a red solid line, and the smallest enclosing box $B_{EC}$ is denoted by a blue dashed line.\relax }}{17}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Architecture of the Darknet 53, used as a base network for features extraction in the Single-Shot Object Detection Framework}}{20}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Anchors and location predictions}}{23}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces General Architecture of an Object Detector\relax }}{27}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces Some data augmentation techniques\relax }}{29}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces SAM and its YOLO modification\relax }}{32}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces PAN and its YOLO modification\relax }}{32}{figure.caption.29}

@@ -1,0 +1,103 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Charcoal Kilns}}{19}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Celtic Fields}}{20}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Barrows}}{21}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Example of overfitting on a classification task}}{22}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Gradient Descent}}{23}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Intersection over Union}}{26}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces A natural image \textit {versus} a \gls {lidar} image\relax }}{30}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Dilated Convolution Example\relax }}{34}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.2}{\ignorespaces General Architecture for the Simple and Efficient Network for Small Target Detection}}{35}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.3}{\ignorespaces General Architecture of the ODRSI}}{38}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Architecture of the Darknet 53, used as a base network for features extraction in the Single-Shot Object Detection Framework}}{41}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Anchors and location predictions}}{44}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Examples of Anomaly and Object class. Detail from a survey done in Bergères Les Vertues, Eastern France\relax }}{48}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.1}{\ignorespaces YOLO model}}{55}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Architecture of the backbone of the YOLO Framework}}{55}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.3}{\ignorespaces General Architecture of an Object Detector\relax }}{56}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Some data augmentation techniques\relax }}{58}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.7}{\ignorespaces SAM and its YOLO modification\relax }}{61}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.8}{\ignorespaces PAN and its YOLO modification\relax }}{61}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Functionnal Diagram of the createAnnotation script}}{68}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Scaled Exponential Linear Unit (SELU) Activation Function\relax }}{72}{figure.13.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.3}{\ignorespaces The Swish activation function, with different values of $\beta $\relax }}{72}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.4}{\ignorespaces The mish activation function\relax }}{73}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Feature Fusion in Zhuang \textit {et al.}}}{74}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Architecture of Qian \textit {et al.}}}{75}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.7}{\ignorespaces PAN and its YOLO modification\relax }}{75}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13.9}{\ignorespaces SAM and its YOLO modification\relax }}{76}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Regularisation by dropping: random drops \textit {v.s.} DropBlock}}{79}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Bounding boxes overlap cases}}{81}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Loss flooding}}{82}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Functional graph of the detection program}}{88}{figure.caption.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Example of successful detections on visualized \gls {lidar} data. The red squares represents detected barrows, green are detected charcoal kilns and blue are detected Celtic fields. Screencaptures from QGIS\relax }}{89}{figure.caption.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15.4}{\ignorespaces Examples of successful detections of the 3 classes of objects. \relax }}{90}{figure.caption.76}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

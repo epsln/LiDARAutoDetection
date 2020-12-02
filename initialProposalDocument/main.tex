@@ -1,0 +1,48 @@
+\documentclass[a4paper, 12pt, titlepage, oneside, french]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{subcaption}
+\usepackage[sorting=none]{biblatex}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{parskip}
+\usepackage{hyperref}
+
+
+\graphicspath{{images/}}
+\addbibresource{biblio.bib}
+
+\author{Martin Olivier}
+\title{A proposal for a Survey-Focused Architecture}
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\import{section/}{intro.tex}
+\newpage
+
+\section{Shortcomings of popular automatic detection systems}
+\import{section/}{tradi.tex}
+\newpage
+
+\section{General specifications for a survey-focused architecture}
+\import{section/}{specs.tex}
+\newpage
+
+\section{Planning}
+\import{section/}{planning.tex}
+\newpage
+
+\section{Conclusion}
+\import{section/}{conclusion.tex}
+\newpage
+
+\printbibliography[heading=bibintoc]
+\end{document}

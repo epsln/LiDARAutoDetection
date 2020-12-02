@@ -1,0 +1,120 @@
+\begin{table}[]
+\centering
+\begin{tabular}{lllll}
+\hline
+Layer & Type          & Filters & Size/Stride & Output Size \\ \hline
+0     & Convolutional & 32      & $3 \times 3 / 1$     & $416 \times 416 \times 32$  \\
+1     & Maxpool       &         & $2 \times 2 / 2$     & $208 \times 208 \times 32$  \\
+2     & Convolutional & 64      & $3 \times 3 / 1$     & $208 \times 208 \times 64$  \\
+3     & Maxpool       &         & $2 \times 2 / 2$     & $104 \times 104 \times 64$  \\
+4     & Convolutional & 128     & $3 \times 3 / 1$     & $104 \times 104 \times 12$  \\
+5     & Convolutional & 64      & $1 \times 1 / 1$     & $104 \times 104 \times 64$  \\
+6     & Convolutional & 128     & $3 \times 3 / 1$     & $104 \times 104 \times 12$  \\
+7     & Maxpool       &         & $2 \times 2 / 2$     & $52 \times 52 \times 128 $  \\
+8     & Convolutional & 256     & $3 \times 3 / 1$     & $52 \times 52 \times 256 $  \\
+9     & Convolutional & 128     & $1 \times 1 / 1$     & $52 \times 52 \times 128 $  \\
+10    & Convolutional & 256     & $3 \times 3 / 1$     & $52 \times 52 \times 256 $  \\
+11    & Maxpool       &         & $2 \times 2 / 2$     & $26 \times 26 \times 256 $  \\
+12    & Convolutional & 512     & $3 \times 3 / 1$     & $26 \times 26 \times 256 $  \\
+13    & Convolutional & 256     & $1 \times 1 / 1$     & $26 \times 26 \times 256 $  \\
+14    & Convolutional & 512     & $3 \times 3 / 1$     & $26 \times 26 \times 512 $  \\
+15    & Convolutional & 256     & $1 \times 1 / 1$     & $26 \times 26 \times 256 $  \\
+16    & Convolutional & 512     & $3 \times 3 / 1$     & $26 \times 26 \times 512 $  \\
+17    & Convolutional & 1024    & $3 \times 3 / 1$     & $26 \times 26 \times 1024$  \\
+18    & Convolutional & 1024    & $3 \times 3 / 1$     & $26 \times 26 \times 1024$  \\
+19    & Passtrough    &         & $10 \rightarrow 20  $     & $26 \times 26 \times 1024$  \\
+20    & Convolutional & 1024    & $3 \times 3 / 1$     & $26 \times 26 \times 1024$  \\
+21    & Convolutional & $N_f$     & $1 \times 1 / 1$     & $26 \times 26 \times N_f $ 
+\end{tabular}
+\caption{YOLT Network Architecture}
+\label{tab:YOLTArchi}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Layer & Type          & Filters & Size/Stride/Dilation Rate   & Output                        \\ \midrule
+0     & Convolutional & 16      &$ 3 \time 3/1  $               &$ 512 \time 512$ \\
+1     & Convolutional & 32      &$ 3 \time 3/2  $               &$ 256 \time 256$ \\
+2     & Convolutional & 16      &$ 1 \time 1/1  $               &$ 256 \time 256$ \\
+3     & Convolutional & 32      &$ 3 \time 3/1  $               &$ 256 \time 256$ \\
+4     & Convolutional & 64      &$ 3 \time 3/2  $               &$ 128 \time 128$ \\
+5     & Convolutional & 32      &$ 1 \time 1/1  $               &$ 128 \time 128$ \\
+6     & Convolutional & 64      &$ 3 \time 3/1  $               &$ 128 \time 128$ \\
+7     & Convolutional & 32      &$ 1 \time 1/1  $               &$ 128 \time 128$ \\
+8     & Convolutional & 64      &$ 3 \time 3/1  $               &$ 128 \time 128$ \\
+9     & Convolutional & 32      &$ 1 \time 1/1  $               &$ 128 \time 128$ \\
+10    & Dilated Convolution & 64&$ 3 \time 3/1/2$               &$ 128 \time 128$ \\
+11    & Convolutional & 32      &$ 1 \time 1/1  $               &$ 128 \time 128$ \\
+12    & Concatenation &         &  Layer 11 + Layer 9           &$ 128 \time 128$ \\
+13    & Convolutional & 32      & $1 \time 1/1$                 &$ 128 \time 128$ \\
+14    & Dilated Convolutional & 64      &  $3 \time 3/1/4$      &$ 128 \time 128$ \\
+15    & Convolutional & 32      &  $1 \time 1/1$                &$ 128 \time 128$ \\
+16    & Concatenation &         &  Layer 15 + Layer 13          &$ 128 \time 128$ \\
+17    & Convolutional & 32      &  $1 \time 1/1$                &$ 128 \time 128$ \\
+18    & Concatenation &         &  Layer 9 + Layer 13           &$ 128 \time 128$ \\
+19    & Convolutional & 32      &  $1 \time 1/1 $               &$ 128 \time 128$ \\
+20    & Concatenation &         &  Layer 19 + Layer 17          &$ 128 \time 128$ \\
+21    & Convolutional & 128     &  $3 \times 3/2$               &$ 64 \time 64$ \\
+22    & Convolutional & 64      &  $1 \time 1/1  $              &$ 64 \time 64$ \\
+23    & Convolutional & 128     &  $3 \time 3/1  $              &$ 64 \time 64$ \\
+24    & Convolutional & 64      &  $1 \time 1/1  $              &$ 64 \time 64$ \\
+25    & Convolutional & 128     &  $3 \time 3/1  $              &$ 64 \time 64$ \\
+26    & Route         &         &  Layer 8                      &$ 64 \time 64$ \\
+27    & Convolutional & 16      &  $1 \time 1/1$                &$ 64 \time 64$ \\
+28    & Passtrough    &         &  $/2$                         &$ 64 \time 64$ \\
+29    & Concatenation&         &  Layer 25 + Layer 28           &$ 64 \time 64$ \\
+30    & Convolutional & 128     & $ 1 \time 1/1 $               &$ 64 \time 64$ \\
+31    & Convolutional & 256     & $ 3 \time 3/1 $               &$ 64 \time 64$ \\ 
+32   & Convolutional &  N       & $ 1 \time 1/1 $               &$ 64 \time 64$ \\ \bottomrule
+\end{tabular}
+	\caption{Architecture of the Single Shot Detection model described in section \ref{ssd}}
+\label{tab:SSDArchi}
+\end{table}
+
+
+\begin{landscape}
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{@{}llllll@{}}
+		\toprule
+		Method              & Faster R-CNN   & SSD   & YOLOv2     & Proposed   & Proposed (Soft-NMS) \\ \midrule
+		Pretrained Backbone & ResNet50       & VGG16 & Darknet-19 & Darknet-53 & Darknet-53          \\
+		Airport             & \textbf{0.911} & 0.788 & 0.598      & 0.839      & 0.847               \\
+		Helicopter          & 0.876          & 0.893 & 0.917      & 0.946      & \textbf{0.946}      \\
+		Plane               & 0.673          & 0.819 & 0.813      & 0.897      & \textbf{0.904}      \\
+		Oiltank             & 0.645          & 0.898 & 0.909      & 0.920      & \textbf{0.922}      \\
+		Warship             & 0.759          & 0.755 & 0.695      & 0.793      & \textbf{0.826}      \\
+		Mean AP             & 0.773          & 0.831 & 0.786      & 0.879      & \textbf{0.890}      \\ \bottomrule
+	\end{tabular}
+	\caption{Average Precision values for each class of the RSD-GOD dataset of the different detection methods along with the Single Shot Framework model from section \ref{ssd} }
+	\label{tab:SSDres}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[]
+	\centering
+	\begin{tabular}{@{}lllllllll@{}}
+		\toprule
+		Method             & COPD  & R-P-Faster R-CNN & RICNN & SSD            & Faster R-CNN   & YOLOv2         & SSD & SSD (Soft-NMS) \\ \midrule
+		Airplane           & 0.623 & 0.904            & 0.884 & \textbf{0.957} & 0.946          & 0.733          & 0.929    & 0.934               \\
+		Ship               & 0.689 & 0.750            & 0.773 & \textbf{0.829} & 0.823          & 0.749          & 0.765    & 0.771               \\
+		Storage Tank       & 0.637 & 0.444            & 0.853 & 0.856          & 0.653          & 0.344          & 0.849    & 0.875               \\
+		Baseball diamon    & 0.833 & 0.899            & 0.881 & \textbf{0.966} & 0.955          & 0.889          & 0.930    & 0.930               \\
+		Tennis court       & 0.321 & 0.797            & 0.408 & 0.821          & 0.819          & 0.291          & 0.824    & 0.827               \\
+		Basketball court   & 0.363 & 0.776            & 0.585 & 0.860          & \textbf{0.897} & 0.276          & 0.815    & 0.838               \\
+		Ground track field & 0.853 & 0.877            & 0.867 & 0.582          & 0.924          & \textbf{0.988} & 0.837    & 0.837               \\
+		Harbor             & 0.553 & 0.791            & 0.686 & 0.548          & 0.724          & 0.754          & 0.816    & \textbf{0.825}      \\
+		Bridge             & 0.148 & 0.682            & 0.615 & 0.419          & 0.575          & 0.518          & 0.702    & \textbf{0.725}      \\
+		Vehicle            & 0.440 & 0.732            & 0.711 & 0.756          & 0.778          & 0.513          & 0.819    & \textbf{0.823}      \\
+		Mean AP            & 0.546 & 0.765            & 0.726 & 0.759          & 0.809          & 0.607          & 0.829    & \textbf{0.838}      \\ \bottomrule
+	\end{tabular}
+	\caption{Average Precision values for each class of the NWPU VHR-10 dataset for each tested method and the Single Shot Framework described in section \ref{ssd}}
+	\label{tab:SSDresNWPU}
+\end{table}
+\end{landscape}
+
+
